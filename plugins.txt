@@ -3,15 +3,12 @@ authorize-project:1.3.0
 blueocean:1.23.1
 build-timeout:1.19.1
 command-launcher:1.4
-
-email-ext:2.69
 github:1.31.0
 hashicorp-vault-pipeline:1.3
 jdk-tool:1.4
 job-dsl:1.77
 kubernetes:1.25.4
 ldap:1.24
-matrix-auth:2.6
 pipeline-stage-view:2.13
 sonar:2.11
 timestamper:1.11.3
@@ -61,7 +58,6 @@ git-client:3.2.1
 git-server:1.9
 git:4.2.2
 github-api:1.115
-github-branch-source:2.7.1
 handlebars:1.1.1
 handy-uri-templates-2-api:2.1.8-1.0
 hashicorp-vault-plugin:3.4.1
@@ -74,9 +70,6 @@ jsch:0.1.55.2
 junit:1.29
 kubernetes-client-api:4.9.1-1
 kubernetes-credentials:0.6.2
-mailer:1.32
-matrix-project:1.14
-mercurial:2.10
 momentjs:1.1.1
 oauth-credentials:0.4
 pipeline-build-step:2.12
@@ -94,7 +87,6 @@ snakeyaml-api:1.26.4
 sse-gateway:1.23
 ssh-credentials:1.18.1
 structs:1.20
-token-macro:2.12
 trilead-api:1.0.6
 variant:1.3
 workflow-api:2.40
