@@ -1,0 +1,23 @@
+version: '2'
+services:
+  jenkins:
+    image: jenkins/jenkins:2.277
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    container_name: jenkins
+    
+  sonarqube:
+    image: sonarqube:8.2-community
+    ports:
+      - 9000:9000
+    container_name: sonarqube
+     
+
+  vault:
+    user: root
+    image: vault:latest
+    ports:
+      - 8200:8200
+    container_name: vault
